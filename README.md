@@ -37,3 +37,4 @@ What steps did you take to try and increase model performance?
 
 ## Summary
 
+The final neural network model had three hidden layers with 20 nodes each and tanh activation functions. The output layer had one unit with a sigmoid activation. After training for 200 epochs it had a training set loss of 0.5318 and an accuracy of 0.7418. The test set loss was 0.5610 and the accuracy was 0.7222. Looking at plots of the loss and accuracy the model had clearly converged. A random forest classifier would be another model that can solve this classification problem. Random Forests can also perform well with a decent amount of features and handle skewed data without needing scaling. So they require less preprocessing and train faster. Finally, random forests can allow us to see the feature importances of each feature in our model, which can help in determining which features to keep and perhaps where to focus preprocessing efforts. 
